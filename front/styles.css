@@ -12,10 +12,22 @@
 .left-logo {
     display: flex;
     width: 30%;
+    position: relative;
+}
+
+.logo-background {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    height: 145px;
+    width: 100%;
+    top: 13em;
 }
 
 .odin-logo {
     position: absolute;
+    width: 100px;
+    top: .5em;
+    right: 20em;
 }
 
 .image {
@@ -24,6 +36,9 @@
 
 .odin {
     color: white;
-    background-color: black;
-
+    position: absolute;
+    top: .4em;
+    right: 2em;
+    font-family: Norse;
+    font-size: 90px;
 }
