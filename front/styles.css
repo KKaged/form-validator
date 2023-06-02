@@ -3,42 +3,58 @@
     padding: 0;
 }
 
-.container {
+.content {
     display: flex;
-    background-color: white;
+    background-color: rgb(195, 195, 195);
     height: 100vh;
+    width: 100vw;
 }
 
-.left-logo {
+.picture {
+    width: 40%;
+    background-image: url(https://images.unsplash.com/photo-1592770308855-82565c056c04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80);
+    background-position: center;
+    background-position-x: -1.5rem;
+    background-position-y: -25rem;
+    height: 100vh;
     display: flex;
-    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
     position: relative;
-}
-
-.logo-background {
-    position: absolute;
+    gap: 15px;
     background-color: rgba(0, 0, 0, .5);
-    height: 145px;
-    width: 100%;
-    top: 13em;
+    justify-content: center;
+    align-items: center;
+    bottom: 11rem;
 }
 
-.odin-logo {
-    position: absolute;
-    width: 100px;
-    top: .5em;
-    right: 20em;
+.engineercafe {
+    height: 10rem;
 }
 
-.image {
-    width: 100%;
-}
-
-.odin {
+.cafe {
     color: white;
-    position: absolute;
-    top: .4em;
-    right: 2em;
-    font-family: Norse;
-    font-size: 90px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.service {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    padding: 45px;
+    height: 35%;
+    color: whitesmoke;
+    background-color: grey;
+}
+
+.three {
+    padding-top: 25px;
+}
+
+form {
+    background-color: antiquewhite;
+    height: 35%;
 }
