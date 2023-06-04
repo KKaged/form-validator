@@ -28,20 +28,86 @@
           <p>Sign up now to get started.</p>
           <p class="three">You know you want to! It's Free!</p>
         </div>
-        <form class="forms" action="post">
+        <div class="mid">
           <p class="form-title">Let's get started!</p>
-          <div class="input">
-            <label for="first_name">First Name:</label>
-            <input type="text" id="first_name" placeholder="First Name" />
-          </div>
-          <div class="input"><label for=""></label></div>
-          <div class="input"><label for=""></label></div>
-          <div class="input"><label for=""></label></div>
-          <div class="input"><label for=""></label></div>
-          <div class="input"><label for=""></label></div>
-        </form>
-        <div class="bottom"></div>
+          <form class="forms" action="post" id="form">
+            <div class="side1">
+              <div class="input">
+                <label for="first_name">First Name:</label>
+                <input
+                  class="enter"
+                  type="text"
+                  name="first_name"
+                  id="first_name"
+                  placeholder="First Name"
+                  required
+                />
+              </div>
+              <div class="input">
+                <label for="email">Email: <br /> </label>
+                <input
+                  class="enter"
+                  type="email"
+                  name="password"
+                  id="email"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+              <div class="input">
+                <label for="password">Password:</label>
+                <input
+                  class="enter"
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="Password"
+                  required
+                />
+              </div>
+            </div>
+            <div class="side2">
+              <div class="input">
+                <label for="last_name">Last Name:</label
+                ><input
+                  class="enter"
+                  type="text"
+                  name="last_name"
+                  id="last_name"
+                  placeholder="Last Name"
+                  required
+                />
+              </div>
+              <div class="input">
+                <label for="phone_number">Phone Number:</label
+                ><input
+                  class="enter"
+                  type="number"
+                  name="phone_number"
+                  id="phone_number"
+                  placeholder="Phone Number"
+                  required
+                />
+              </div>
+              <div class="input">
+                <label for="confirm_password">Confirm Password</label
+                ><input
+                  class="enter"
+                  type="password"
+                  name="confirm_password"
+                  id="confirm_password"
+                  placeholder="Password"
+                  required
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="bottom">
+          <button class="create" type="submit">Create Account</button>
+        </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
