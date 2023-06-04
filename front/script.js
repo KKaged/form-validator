@@ -25,7 +25,7 @@ submitButton.addEventListener("click", function (event) {
     return;
   }
   if (password !== confirmedPassword) {
-    console.log("Passwords do not match.");
+    alert("Passwords do not match.");
     return;
   }
   console.log(password, confirmedPassword);
